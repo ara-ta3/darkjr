@@ -5,7 +5,9 @@
   "author": "Arata Tanaka <tarata43@yahoo.co.jp>",
   "description": "dark-bot-jr",
   "scripts": {
-    "run": "./bin/hubot-twitter .env"
+    "start": "./bin/hubot-twitter .env",
+    "local": "source .env;./bin/hubot"
+
   },
   "dependencies": {
     "hubot": "^2.19.0",
